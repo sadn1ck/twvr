@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 212 212 212;
+  --text: 23 23 23;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: 38 38 38;
+    --text: 229 229 229;
+  }
+}
+
+html {
+  @apply bg-background text-content;
+}
